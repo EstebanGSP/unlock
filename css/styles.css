@@ -29,12 +29,10 @@ body {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
-    border: none;
     border-radius: 5px;
     color: white;
     background-color: white;
     transition: background-color 0.3s ease;
-    position: absolute;
   }
   
   
@@ -56,15 +54,10 @@ body {
   .start {
     color: rgb(255, 255, 255);
     background-color: rgb(44, 206, 29);
-    margin-top: 13.3%; /* Si vous voulez garder un espace au-dessus */
     transition: background-color 0.3s ease;
-  
-    position: absolute; /* Nécessaire pour centrer avec top/left */
-    top: 30%; /* Place le bouton au milieu verticalement */
-    left: 45%; /* Place le bouton au milieu horizontalement */
-    transform: translate(-50%, -50%); /* Ajuste pour centrer exactement */
-    padding: 10px 20px; /* Ajustez la taille du bouton si nécessaire */
-    text-align: center;
+    position: absolute;
+    margin-left: -31cap;
+    margin-top: 22cap;
   }
   
   .start:hover{
@@ -98,17 +91,17 @@ body {
 
 
   .validateclass{
-    top: 60%; /* Place le bouton au milieu verticalement */
-    left: 50%; /* Place le bouton au milieu horizontalement */
-    transform: translate(-50%, -50%); /* Ajuste pour centrer exactement */
+    position: relative;
+    top: 15cap; /* Place le bouton au milieu verticalement */
+    left: 0cap; /* Place le bouton au milieu horizontalement */
     color: rgb(255, 255, 255);
     background-color: rgb(44, 206, 29);
   }
 
   .startclass{
-    top: 75%; /* Place le bouton au milieu verticalement */
-    left: 50%; /* Place le bouton au milieu horizontalement */
-    transform: translate(-50%, -50%); /* Ajuste pour centrer exactement */
+    position: relative;
+    top: 18cap; /* Place le bouton au milieu verticalement */
+    left: 0cap; /* Place le bouton au milieu horizontalement */
     color: rgb(255, 255, 255);
     background-color: rgb(44, 206, 29);
   }
@@ -117,14 +110,10 @@ body {
   .finalbutton{
     color: rgb(255, 255, 255);
     background-color: rgb(44, 206, 29);
-    margin-top: 13.3%; /* Si vous voulez garder un espace au-dessus */
     transition: background-color 0.3s ease;
-  
-    position: absolute; /* Nécessaire pour centrer avec top/left */
-    top: 30%; /* Place le bouton au milieu verticalement */
-    left: 55%; /* Place le bouton au milieu horizontalement */
-    transform: translate(-50%, -50%); /* Ajuste pour centrer exactement */
-    padding: 10px 20px;
+    position: absolute;
+    margin-left: -21cap;
+    margin-top: 22cap;
   }
 
 
@@ -192,5 +181,11 @@ body {
 
   .redp{
     color: rgb(184, 0, 0);
+  }
+
+  .replaybutton{
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 206, 29);
   }
   

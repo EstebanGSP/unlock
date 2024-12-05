@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNLOCK : Épreuve Finale</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <img class="logo" src="css/image/logo.png" alt="Unlock Logo">
+    <button id="start" class="start">START</button>
+    <button id="finalButton" class="finalbutton">FINALE</button>
+    <div id="timer">30:00</div>
+    <div class="mdp">
+      <label for="password" class="password">Entrez le mot de passe :</label>
+      <input type="text" id="password" placeholder="Écrire..." class="placeholder">
+      <button id="validate" class="validate">VALIDER</button>
+    </div>
+    <div class="message" id="message">Résolvez les énigmes pour gagner !</div>
+    
+    
+    <!-- Conteneur pour les classes des joueurs -->
+    <div id="playerClasses" class="player-classes"></div>
+
+    <script src="scripts/game.js"></script>
+</body>  
+</html>
