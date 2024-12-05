@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 10px;
+  background-size: cover; /* Adapte l'image pour couvrir tout l'écran */
+  background-position: center; /* Centre l'image */
+  background-repeat: no-repeat; /* Évite les répétitions */
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  url('image/hack2.gif'); /* Couche semi-transparente + image */
+  margin-top: 4%;
+}
+
+  #timer {
+    font-size: 4em;
+    margin: 20px 0;
+    color: #ffffff;
+    position: relative;
+    margin-top: 0%;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    position: absolute;
+  }
+  
+  
+  .message {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-top: 3%;
+  }
+  
+  .message.success {
+    color: green;
+  }
+  
+  .message.error {
+    color: red;
+  }
+
+  .start {
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 206, 29);
+    margin-top: 13.3%; /* Si vous voulez garder un espace au-dessus */
+    transition: background-color 0.3s ease;
+  
+    position: absolute; /* Nécessaire pour centrer avec top/left */
+    top: 30%; /* Place le bouton au milieu verticalement */
+    left: 45%; /* Place le bouton au milieu horizontalement */
+    transform: translate(-50%, -50%); /* Ajuste pour centrer exactement */
+    padding: 10px 20px; /* Ajustez la taille du bouton si nécessaire */
+    text-align: center;
+  }
+  
+  .start:hover{
+    background-color: rgb(33, 63, 184);
+  }
+
+  .validate{
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 221, 100);
+    border-color: #ffffff;
+  }
+
+  .validate:hover{
+    background-color: green;
+  }
+
+  .password {
+    font-size: 1.2em;
+    margin-left: 1px;
+  }
+
+  .placeholder{
+    border-radius: 7px;
+    border-color: rgb(0, 121, 12);
+  }
+
+  .mdp{
+    margin-right: 6%;
+    margin-top: 7%;
+  }
+
+
+  .validateclass{
+    top: 60%; /* Place le bouton au milieu verticalement */
+    left: 50%; /* Place le bouton au milieu horizontalement */
+    transform: translate(-50%, -50%); /* Ajuste pour centrer exactement */
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 206, 29);
+  }
+
+  .startclass{
+    top: 75%; /* Place le bouton au milieu verticalement */
+    left: 50%; /* Place le bouton au milieu horizontalement */
+    transform: translate(-50%, -50%); /* Ajuste pour centrer exactement */
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 206, 29);
+  }
+
+
+  .finalbutton{
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 206, 29);
+    margin-top: 13.3%; /* Si vous voulez garder un espace au-dessus */
+    transition: background-color 0.3s ease;
+  
+    position: absolute; /* Nécessaire pour centrer avec top/left */
+    top: 30%; /* Place le bouton au milieu verticalement */
+    left: 55%; /* Place le bouton au milieu horizontalement */
+    transform: translate(-50%, -50%); /* Ajuste pour centrer exactement */
+    padding: 10px 20px;
+  }
+
+
+  .finalbutton:hover{
+    background-color: rgb(33, 63, 184);
+  }
+
+  .classes-display {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9em;
+    text-align: left;
+    max-width: 200px;
+  }
+  
+
+  .player-classes {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: left;
+  }
+  
+  .victorypage{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-size: cover; /* Adapte l'image pour couvrir tout l'écran */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite les répétitions */
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('image/hackvictory.gif'); /* Couche semi-transparente + image */
+    margin-top: 4%;
+  }
+
+  .losepage{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-size: cover; /* Adapte l'image pour couvrir tout l'écran */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite les répétitions */
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('image/hacklose.jpg'); /* Couche semi-transparente + image */
+    margin-top: 4%;
+  }
+
+
+  .redh1{
+    font-size: 250.5%;
+    color: rgb(184, 0, 0);
+  }
+
+  .redp{
+    color: rgb(184, 0, 0);
+  }
+  
