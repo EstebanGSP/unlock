@@ -53,15 +53,16 @@ body {
 
   .start {
     color: rgb(255, 255, 255);
-    background-color: rgb(44, 206, 29);
+    background-color: rgb(220, 21, 21);
     transition: background-color 0.3s ease;
     position: absolute;
     margin-left: -31cap;
     margin-top: 22cap;
+    border-color: #ffffff;
   }
   
   .start:hover{
-    background-color: rgb(33, 63, 184);
+    background-color: rgb(142, 9, 73);
   }
 
   .validate{
@@ -95,7 +96,12 @@ body {
     top: 15cap; /* Place le bouton au milieu verticalement */
     left: 0cap; /* Place le bouton au milieu horizontalement */
     color: rgb(255, 255, 255);
-    background-color: rgb(44, 206, 29);
+    background-color: rgb(52, 6, 178);
+    border-color: rgb(255, 255, 255);
+  }
+
+  .validateclass:hover{
+    background-color: rgb(31, 0, 92);
   }
 
   .startclass{
@@ -103,22 +109,29 @@ body {
     top: 18cap; /* Place le bouton au milieu verticalement */
     left: 0cap; /* Place le bouton au milieu horizontalement */
     color: rgb(255, 255, 255);
-    background-color: rgb(44, 206, 29);
+    background-color: rgb(220, 21, 21);
+    margin-bottom: 20px;
+    border-color: rgb(255, 255, 255);
+  }
+
+  .startclass:hover{
+    background-color: rgb(142, 9, 73);
   }
 
 
   .finalbutton{
     color: rgb(255, 255, 255);
-    background-color: rgb(44, 206, 29);
+    background-color: rgb(216, 136, 17);
     transition: background-color 0.3s ease;
     position: absolute;
     margin-left: -21cap;
     margin-top: 22cap;
+    border-color: rgb(255, 255, 255);
   }
 
 
   .finalbutton:hover{
-    background-color: rgb(33, 63, 184);
+    background-color: rgb(255, 166, 0);
   }
 
   .classes-display {
@@ -186,6 +199,13 @@ body {
   .replaybutton{
     margin-top: 10%;
     color: rgb(255, 255, 255);
-    background-color: rgb(44, 206, 29);
+    background-color: rgb(233, 16, 16);
+    border-color: #ffffff;
   }
+
+  .replaybutton:hover{
+    background-color: rgb(142, 9, 73);
+  }
+  
+
   
